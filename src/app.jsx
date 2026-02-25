@@ -17,7 +17,7 @@ const App = () => {
       <Cocktails/>
       <About/>
       <Art/>
-      <div className="md:mt-40 mt-0 h-dvh"></div>
+      <Menu/>
       </main>
   )
 }
