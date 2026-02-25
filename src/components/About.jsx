@@ -20,7 +20,7 @@ const About = () => {
       .from(
         ".top-grid div, .bottom-grid div",
         { opacity: 0, duration: 1, ease: "power1.inOut", stagger: 0.04 },
-        "-=0.5"
+        
       );
   });
   return (
