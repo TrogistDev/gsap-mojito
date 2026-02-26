@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build da Imagem
-        run: docker build -t gustavoferreira/mojito_project:latest .
+        run: docker build -t trogistdev/mojito_project:latest .
 
       - name: Push da Imagem
-        run: docker push gustavoferreira/mojito_project:latest
+        run: docker push trogistdev/mojito_project:latest
