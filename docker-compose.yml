@@ -4,6 +4,8 @@ services:
   web:
     build: .
     container_name: react-app-profissa
+    env_file:        # <--- Adicione isso
+      - .env         # <--- Isso faz o Docker ler seu arquivo .env
     ports:
       - "5173:5173"
     volumes:
